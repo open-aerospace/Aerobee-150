@@ -1,0 +1,12 @@
+sudo: false
+language: python
+python:
+  - "2.7"
+before_install:
+  - rvm use 2.2.3 --install --fuzzy
+install:
+ - gem install --no-document jekyll
+script:
+ - jekyll build
+ - x=$(for i in `git log --all --pretty=format:{\"hash\":\ \"%h\"\,\ \"time\":\"%ad\"},`; do echo -n "${i} "; done| sed 's/, $//') ; echo "["$x"]" > _site/git.json
+ - ./deploy.sh
