@@ -1,0 +1,27 @@
+<engine-database>
+  <engine-list>
+    <engine
+        Isp="178"
+        Itot="206842."
+        Type="reloadable"
+        auto-calc-cg="1"
+        auto-calc-mass="1"
+        avgThrust="82700"
+        burn-time="2.5"
+        code="R82700"
+        dia="300"
+        initWt="119100"
+        len="1540."
+        mfg="Aerojet General"
+        propWt="119000."
+    >
+      <comments>Aerobee 150A booster</comments>
+      <data>
+        <eng-data cg="770." f="50000." t="0."/>
+        <eng-data cg="770." f="82736." t="0.1"/>
+        <eng-data cg="770." f="82736." t="2.2"/>
+        <eng-data cg="770." f="80000." t="2.5"/>
+      </data>
+    </engine>
+  </engine-list>
+</engine-database>
