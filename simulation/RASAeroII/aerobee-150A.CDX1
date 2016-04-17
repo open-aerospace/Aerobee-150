@@ -1,0 +1,125 @@
+<RASAeroDocument>
+  <FileVersion>2</FileVersion>
+  <RocketDesign>
+    <NoseCone>
+      <PartType>NoseCone</PartType>
+      <Length>87.8</Length>
+      <Diameter>15</Diameter>
+      <Shape>Tangent Ogive</Shape>
+      <BluntRadius>0</BluntRadius>
+      <Location>0</Location>
+      <Color>Black</Color>
+    </NoseCone>
+    <BodyTube>
+      <PartType>BodyTube</PartType>
+      <Length>15</Length>
+      <Diameter>15</Diameter>
+      <LaunchLugDiameter>0</LaunchLugDiameter>
+      <LaunchLugLength>0</LaunchLugLength>
+      <RailGuideDiameter>0</RailGuideDiameter>
+      <RailGuideHeight>0</RailGuideHeight>
+      <LaunchShoeArea>0</LaunchShoeArea>
+      <Location>87.8</Location>
+      <Color>Black</Color>
+      <BoattailLength>0</BoattailLength>
+      <BoattailRearDiameter>0</BoattailRearDiameter>
+      <BoattailOffset>0</BoattailOffset>
+      <Overhang>0</Overhang>
+    </BodyTube>
+    <BodyTube>
+      <PartType>BodyTube</PartType>
+      <Length>186.2</Length>
+      <Diameter>15</Diameter>
+      <LaunchLugDiameter>0</LaunchLugDiameter>
+      <LaunchLugLength>0</LaunchLugLength>
+      <RailGuideDiameter>0</RailGuideDiameter>
+      <RailGuideHeight>0</RailGuideHeight>
+      <LaunchShoeArea>0</LaunchShoeArea>
+      <Location>102.8</Location>
+      <Color>Black</Color>
+      <BoattailLength>0</BoattailLength>
+      <BoattailRearDiameter>0</BoattailRearDiameter>
+      <BoattailOffset>0</BoattailOffset>
+      <Overhang>0</Overhang>
+      <Fin>
+        <Count>4</Count>
+        <Chord>38.96</Chord>
+        <Span>16.13</Span>
+        <SweepDistance>16.13</SweepDistance>
+        <TipChord>28</TipChord>
+        <Thickness>1.1</Thickness>
+        <LERadius>0</LERadius>
+        <Location>38.96</Location>
+        <AirfoilSection>Hexagonal Blunt Base</AirfoilSection>
+        <FX1>6</FX1>
+        <FX3>0</FX3>
+      </Fin>
+    </BodyTube>
+    <Booster>
+      <PartType>Booster</PartType>
+      <Length>78</Length>
+      <Diameter>15</Diameter>
+      <InsideDiameter>15</InsideDiameter>
+      <LaunchLugDiameter>0</LaunchLugDiameter>
+      <LaunchLugLength>0</LaunchLugLength>
+      <RailGuideDiameter>0</RailGuideDiameter>
+      <RailGuideHeight>0</RailGuideHeight>
+      <LaunchShoeArea>0</LaunchShoeArea>
+      <Location>289</Location>
+      <ShoulderLength>0</ShoulderLength>
+      <Color>Black</Color>
+      <NozzleExitDiameter>0</NozzleExitDiameter>
+      <BoattailLength>0</BoattailLength>
+      <BoattailRearDiameter>0</BoattailRearDiameter>
+      <Fin>
+        <Count>4</Count>
+        <Chord>35</Chord>
+        <Span>23</Span>
+        <SweepDistance>15</SweepDistance>
+        <TipChord>26</TipChord>
+        <Thickness>1.1</Thickness>
+        <LERadius>0</LERadius>
+        <Location>35</Location>
+        <AirfoilSection>Hexagonal Blunt Base</AirfoilSection>
+        <FX1>6</FX1>
+        <FX3>0</FX3>
+      </Fin>
+    </Booster>
+    <Surface>Sheet Metal</Surface>
+    <CP>0</CP>
+    <ModifiedBarrowman>True</ModifiedBarrowman>
+    <Turbulence>False</Turbulence>
+    <SustainerNozzle>0</SustainerNozzle>
+    <Booster1Nozzle>0</Booster1Nozzle>
+    <Booster2Nozzle>0</Booster2Nozzle>
+    <UseBooster1>False</UseBooster1>
+    <UseBooster2>False</UseBooster2>
+    <Comments>Aerobee 150A
+
+1960-1980's sounding rocket used by NASA. Built by the Aerojet-General Corperation, orginally for the Navy under the direction of the APL and NRL.</Comments>
+  </RocketDesign>
+  <LaunchSite>
+    <Altitude>4000</Altitude>
+    <Pressure>0</Pressure>
+    <RodAngle>0.5</RodAngle>
+    <RodLength>12</RodLength>
+    <Temperature>85</Temperature>
+    <WindSpeed>3</WindSpeed>
+  </LaunchSite>
+  <Recovery>
+    <Altitude1>1000</Altitude1>
+    <Altitude2>1000</Altitude2>
+    <DeviceType1>None</DeviceType1>
+    <DeviceType2>None</DeviceType2>
+    <Event1>False</Event1>
+    <Event2>False</Event2>
+    <Size1>1</Size1>
+    <Size2>1</Size2>
+    <EventType1>None</EventType1>
+    <EventType2>None</EventType2>
+    <CD1>1.33</CD1>
+    <CD2>1.33</CD2>
+  </Recovery>
+  <MachAlt />
+  <SimulationList />
+</RASAeroDocument>
