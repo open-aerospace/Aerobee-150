@@ -14,4 +14,4 @@ install:
 script:
  - make
  - x=$(for i in `git log --all --pretty=format:{\"hash\":\ \"%h\"\,\ \"time\":\"%ad\"},`; do echo -n "${i} "; done| sed 's/, $//') ; echo "["$x"]" > _site/git.json
-  /deploy.sh
+ - ./deploy.sh
