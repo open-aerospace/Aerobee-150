@@ -61,4 +61,8 @@ target/
 #Ipython Notebook
 .ipynb_checkpoints
 
+# Jupyter Output
+*_files/
+*.md
+
 _site/
