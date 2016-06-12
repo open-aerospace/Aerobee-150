@@ -1,0 +1,93 @@
+rocket:
+  name: Aerobee 150A
+  manufacturer: Space-General Corporation
+  description: The Aerobee 150A is a four-fin sounding rocket manufactured by the
+    Space-General Corporation and first flown in February, 1960. The rocket is capable
+    of transporting 45 to 130 kilograms payloads to high altitudes (over 200 kilometers)
+    with a stable, near vertical trajectory. The rocket is a free-flight, fin-stabilized,
+    tower-launched, vehicle consisting of a liquid propellant sustainer and a solid
+    propellant booster. The rocket is rolled (spun) during flight to decrease dispersion.
+  aerodynamics: {}
+  stages:
+
+
+  - name: Aerobee 150A Sustainer
+    components:
+    - type: Nosecone
+      name: Nosecone
+      material_name: Aluminum
+      diameter: 0.38
+      length: 2.23
+      mass: 7.71107
+      shape: TANGENT_OGIVE
+      shape_parameter: 1
+      components:
+      - type: Mass
+        name: Minimum Payload
+        mass: 45.3592
+
+    - type: Bodytube
+      name: Nose Extension
+      diameter: 0.38
+      length: 0.38
+      mass: 6.35029
+      material_name: Aluminum
+
+    - type: Bodytube
+      name: Tank Shroud
+      diameter: 0.38
+      length: 0.5
+      mass: 3.0
+      material_name: Steel
+      components:
+      - type: Mass
+        name: Head End Plumbing
+        mass: 1.81437
+
+    - type: Bodytube
+      name: Tank Assembly
+      diameter: 0.38
+      length: 0.5
+      mass: 74.156
+      material_name: Steel
+      components:
+      - type: Mass
+        name: Aniline/Furfuryl Alcohol Fuel
+        mass: 134.35406
+      - type: Mass
+        name: IRFNA
+        mass: 343.91373
+
+    - type: Bodytube
+      name: Aft Shroud
+      diameter: 0.38
+      length: 0.5
+      mass: 7.030682
+      material_name: Steel
+      components:
+      - type: Mass
+        name: Thrust Chamber Assembly
+        mass: 14.56032
+      - type: Mass
+        name: Misc. (fasteners, etc.)
+        mass: 5.624545
+      - type: Mass
+        name: Reserve Propellent
+        mass: 6.35029
+
+    - type: Finset
+      name: Fins (4)
+      mass: 12.7006
+
+
+  - name: "2.5 KS-18,000 Booster"
+    components:
+    - type: Bodytube
+      name: Booster body and fins
+      diameter: 0.0  #?
+      length: 1.98
+      mass: 153.314
+      components:
+      - type: Mass
+        name: Propellent
+        mass: 118.841
