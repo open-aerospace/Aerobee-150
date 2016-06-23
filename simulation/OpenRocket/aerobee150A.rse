@@ -1,0 +1,27 @@
+<engine-database>
+  <engine-list>
+    <engine
+        Isp="198"
+        Itot="928299."
+        Type="reloadable"
+        auto-calc-cg="1"
+        auto-calc-mass="1"
+        avgThrust="18200"
+        burn-time="51.5"
+        code="AJ24"
+        dia="355"
+        initWt="610536."
+        len="4800."
+        mfg="Aerojet General"
+        propWt="610535."
+    >
+      <comments>Aerobee 150A booster</comments>
+      <data>
+        <eng-data cg="2400." f="20000." t="0."/>
+        <eng-data cg="2500." f="18200." t="2.5"/>
+        <eng-data cg="3000." f="18200." t="50.0"/>
+        <eng-data cg="3100." f="10000." t="51.5"/>
+      </data>
+    </engine>
+  </engine-list>
+</engine-database>
