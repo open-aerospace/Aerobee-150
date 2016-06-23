@@ -1,0 +1,15 @@
+title: Aerobee 150
+subtitle: A Classic Sounding Rocket
+nav:
+  - title: Aerobee 150 Overview
+    url: /Aerobee-150/
+    name: home
+  - title: History
+    url: /Aerobee-150/history/
+    name: history
+  - title: Data
+    url: /Aerobee-150/data/
+    name: data
+  - title: Simulation
+    url: /Aerobee-150/simulation/
+    name: simulation

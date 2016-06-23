@@ -1,4 +1,11 @@
-# Digitized Flight Data
+---
+layout: project-page
+title: Digitized Aerobee 150 Data From Historical Sources
+description: Digitized Aerobee 150 Data From Historical Sources
+page: data
+---
+
+# Digitized Aerobee 150 Data From Historical Sources
 
 Most of the primary sources are from the 1960's. They contain some really interesting charts, but not the raw data. [WebPlotDigitizer][webplot] was used to extract approximate values as CSV files.
 
